@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "SMS Forwarder",
+    "slug": "messages-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.smsforwarder.app",
+      "permissions": ["RECEIVE_SMS", "READ_SMS", "FOREGROUND_SERVICE", "POST_NOTIFICATIONS"]
+    },
+    "plugins": []
+  }
+}
