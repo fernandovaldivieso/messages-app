@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "android": {
       "package": "com.smsforwarder.app",
-      "permissions": ["RECEIVE_SMS", "READ_SMS", "FOREGROUND_SERVICE", "POST_NOTIFICATIONS"]
+      "permissions": ["RECEIVE_SMS", "READ_SMS", "FOREGROUND_SERVICE", "POST_NOTIFICATIONS", "DETECT_SCREEN_CAPTURE"]
     },
     "plugins": []
   }

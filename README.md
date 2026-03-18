@@ -229,6 +229,7 @@ Declared in `app.json` under `android.permissions`:
 | `READ_SMS` | Read the content of received messages |
 | `FOREGROUND_SERVICE` | Keep the forwarding service running in the background |
 | `POST_NOTIFICATIONS` | Display a notification when a message is forwarded |
+| `DETECT_SCREEN_CAPTURE` | Required by Expo's `NativeUnimoduleProxy` on Android 14+ to register the screen-capture observer during module initialization |
 
 ## Troubleshooting
 
