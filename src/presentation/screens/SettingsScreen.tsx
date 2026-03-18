@@ -82,7 +82,7 @@ export default function SettingsScreen() {
         {loading ? <ActivityIndicator color="#fff" /> : <Text style={styles.testBtnText}>Send Test Message</Text>}
       </TouchableOpacity>
       <Text style={styles.hint}>
-        ℹ Token is stored obfuscated and never logged to console.
+        ℹ Token is stored base64-encoded and never logged to console.
       </Text>
     </ScrollView>
   );

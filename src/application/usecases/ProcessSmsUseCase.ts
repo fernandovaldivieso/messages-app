@@ -24,7 +24,7 @@ export class ProcessSmsUseCase {
     const activeRules = rules.filter(r => r.isActive);
     const matchedRule = activeRules.find(r => this.matchesRule(sms, r));
 
-    const logId = `log_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    const logId = `log_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`;
 
     if (!matchedRule) {
       const log: SmsLog = {
